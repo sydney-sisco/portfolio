@@ -3,6 +3,14 @@ main {
 }
 
 header {
-  font-size: 300%;
+  font-size: 290%;
   color: #FFF;
+}
+
+h1 {
+  opacity: 0.5;
+}
+
+h2 {
+  opacity: 0.2;
 }
