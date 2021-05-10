@@ -18,8 +18,8 @@ function App() {
         <header>
           <h1>Sydney Sisco</h1>
           <h2>Full Stack Developer</h2>
+          <IconContainer />
         </header>
-        <IconContainer />
         <a href="/" onClick={(e) => {e.preventDefault(); transition(PROJECTS)}}>
         <footer>
           <h3>
