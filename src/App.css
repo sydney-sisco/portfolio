@@ -10,15 +10,17 @@ header {
 
 h1 {
   opacity: 0.5;
+  text-shadow: 1px 1px 0px #f0f, -1px -1px 0 #0ff;
 }
 
 h2 {
   opacity: 0.2;
+  text-shadow: 1px 1px 0px #f0f, -1px -1px 0 #0ff;
 }
 
 footer {
   color: #47FF15;
-  opacity: 0.5;
+  opacity: 0.9;
 
   font-size: 250%;
 
@@ -26,6 +28,8 @@ footer {
   left: 0;
   bottom: 1em;
   width: 100%;
+
+  text-shadow: 1px 1px 0px #f0f, -1px -1px 0 #0ff;
 }
 
 footer h3 {
