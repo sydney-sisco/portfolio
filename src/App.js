@@ -16,6 +16,7 @@ function App() {
           <h3>
             <strong>|||||||||||||||</strong><span id="empty">|||||</span>
           </h3>
+          <div class="arrow bounce"></div>
         </footer>
     </main>
   );

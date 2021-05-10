@@ -3,7 +3,7 @@ import './iconContainer.css'
 
 export default function IconContainer(props) {
   return (
-    <div>
+    <div className="icon-container">
       <a href="https://www.linkedin.com/in/sydsisco/"><img src="images/linkedin.png" alt="linkedin" /></a>
       <a href="https://github.com/sydney-sisco"><img src="images/github.png" alt="github" /></a>
       <a href="https://keybase.io/sydneysisco"><img src="images/key.png" alt="keybase" /></a>

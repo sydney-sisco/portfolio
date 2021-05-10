@@ -1,3 +1,11 @@
 img {
   opacity: 0.2;
+  margin: 1.5em;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
