@@ -33,7 +33,7 @@ export default function Projects({onHome}) {
       <div className={styles.left}>
         <h1>{'Projects'.toUpperCase()}</h1>
         <ul>
-          {projects.map((project, index) => <a href="/" onClick={e => {e.preventDefault(); setActive(index)}} key={index}><li>{project.name.toUpperCase()}</li></a>)}
+          {projects.map((project, index) => <a href="/" onClick={e => {e.preventDefault(); setActive(index)}} key={index}><li className={active === index && styles.active}>{project.name.toUpperCase()}</li></a>)}
         </ul>
       </div>
       <div className={styles.right}>
