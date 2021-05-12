@@ -30,7 +30,7 @@ function App() {
       </div>
     }
     {mode === PROJECTS && 
-      <Projects onHome={() => {transition(MAIN)}}/>
+      <Projects onHome={back}/>
     }
     </div>
   );
