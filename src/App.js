@@ -20,21 +20,17 @@ function App() {
           <h2>Full Stack Developer</h2>
           <IconContainer />
         </header>
-        <a href="/" onClick={(e) => {e.preventDefault(); transition(PROJECTS)}}>
-        <footer>
-          <h3>
-            Portfolio
-          </h3>
-          <h3>
-            <strong>|||||||||||||||</strong><span id="empty">|||||</span>
-          </h3>
+        <a href="/" onClick={e => {e.preventDefault(); transition(PROJECTS)}}>
+        <footer className="volume">
+          <h3>Portfolio</h3>
+          <h3>|||||||||||||||<span id="empty">|||||</span></h3>
           <div className="arrow bounce"></div>
         </footer>
         </a>
       </div>
     }
     {mode === PROJECTS && 
-      <Projects />
+      <Projects onHome={() => {transition(MAIN)}}/>
     }
     </div>
   );

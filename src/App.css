@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  text-align: center;
+  /* text-align: center; */
 }
 
 header {
@@ -21,11 +21,12 @@ h2 {
   text-shadow: 1px 1px 0px #f0f, -1px -1px 0 #0ff;
 }
 
-footer {
+footer.volume {
   color: #47FF15;
   opacity: 0.9;
 
   font-size: 250%;
+  text-align: center;
 
   position: fixed;
   left: 0;

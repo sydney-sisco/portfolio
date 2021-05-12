@@ -1,0 +1,54 @@
+.projects {
+  display: flex;
+  flex-direction: row;
+
+  /* font-size: 200%; */
+
+  color: inherit;
+  
+}
+
+.projects a {
+  text-decoration: none;
+}
+
+.projects a:visited{
+  text-decoration: none;
+  color: #FFF;
+}
+
+.projects .left {
+  width: 50%;
+  font-size: 200%;
+  margin-left: 2rem;
+}
+
+.project .left li {
+  font-size: 12rem;
+}
+
+.projects .right {
+  width: 50%;
+}
+
+.projects .right img {
+  width: 75%;
+  opacity: 1;
+  margin: 1rem;
+}
+
+.projects .right .links {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: left;
+  font-size: 250%;
+
+}
