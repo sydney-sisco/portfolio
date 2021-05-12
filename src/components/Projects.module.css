@@ -5,6 +5,8 @@
   /* font-size: 200%; */
 
   color: inherit;
+
+  margin: 2rem;
   
 }
 
@@ -19,7 +21,7 @@
 
 .projects .left {
   width: 50%;
-  font-size: 200%;
+  font-size: 2rem;
   margin-left: 2rem;
 }
 
@@ -29,6 +31,8 @@
 
 .projects .right {
   width: 50%;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 .projects .right img {
@@ -40,15 +44,24 @@
 .projects .right .links {
   display: flex;
   justify-content: space-between;
+  font-size: 2.5rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  width: 75%;
+}
+
+.rotate {
+  float: right;
+  transform: rotate(-45deg);
+  /* font-size: 4rem; */
 }
 
 footer {
   position: fixed;
-  left: 0;
-  bottom: 0;
+  left: 1rem;
+  bottom: 1rem;
   width: 100%;
   color: white;
   text-align: left;
-  font-size: 250%;
-
+  font-size: 3rem;
 }

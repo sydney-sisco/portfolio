@@ -39,14 +39,14 @@ export default function Projects({onHome}) {
       <div className={styles.right}>
         <img src={projects[active].img} alt={projects[active].name} />
         <div className={styles.links}>
-          <a href={projects[active].liveLink} alt="live link">LIVE</a>
-          <a href={projects[active].codeLink} alt="code link">CODE</a>
+          <a href={projects[active].liveLink} alt="live link">LIVE<span className={styles.rotate}>→</span></a>
+          <a href={projects[active].codeLink} alt="code link">CODE<span className={styles.rotate}>→</span></a>
         </div>
         <p>{projects[active].desc}</p>
       </div>
       <footer>
         <a href="/" onClick={e => {e.preventDefault(); onHome()}}>
-          <h3>BACK</h3>
+          <h3>←BACK</h3>
         </a>
       </footer>
     </main>
