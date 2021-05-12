@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './projects.css';
+import styles from './Projects.module.css'
 
 const projects = [
   {
@@ -29,16 +29,16 @@ export default function Projects({onHome}) {
   const [active, setActive] = useState(0);
 
   return (
-    <main className="projects">
-      <div className="left">
+    <main className={styles.projects}>
+      <div className={styles.left}>
         <h1>{'Projects'.toUpperCase()}</h1>
         <ul>
           {projects.map((project, index) => <a href="/" onClick={e => {e.preventDefault(); setActive(index)}} key={index}><li>{project.name.toUpperCase()}</li></a>)}
         </ul>
       </div>
-      <div className="right">
+      <div className={styles.right}>
         <img src={projects[active].img} alt={projects[active].name} />
-        <div className="links">
+        <div className={styles.links}>
           <a href={projects[active].liveLink} alt="live link">LIVE</a>
           <a href={projects[active].codeLink} alt="code link">CODE</a>
         </div>
